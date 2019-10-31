@@ -1,0 +1,13 @@
+{
+  "port": "4000",
+  "host": "0.0.0.0",
+  "appRootUrl": "/",
+  "cdnUrl": "https://res.cloudinary.com/atyantik/raw/upload/",
+  "polyfill": "cdn",
+  "react": "cdn",
+  "asyncCSS": false,
+  "serviceWorker": true,
+  "serverSideRender": false,
+  "singlePageApplication": true,
+  "hashedRoutes": true
+}

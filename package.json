@@ -1,0 +1,78 @@
+{
+  "name": "example-pawjs-redux-saga",
+  "version": "1.0.0",
+  "description": "Example on using Redux Saga with PawJS",
+  "scripts": {
+    "start": "pawjs --no-cache --env=development start",
+    "build": "pawjs --no-cache --config=./prod-pawconfig.json --env=production build",
+    "build:demo": "pawjs --no-cache --config=./demo-pawconfig.json --env=production build",
+    "lint": "pawjs lint",
+    "test": "pawjs --no-cache test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atyantik/example-pawjs-redux-saga.git"
+  },
+  "author": {
+    "name": "Atyantik Technologies",
+    "email": "admin@atyantik.com",
+    "url": "https://www.atyantik.com/"
+  },
+  "engines": {
+    "node": ">=10.11.0"
+  },
+  "contributors": [
+    {
+      "name": "Tirth Bodawala",
+      "email": "tirthbodawala@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "https://www.yashthakur.in/"
+    }
+  ],
+  "devDependencies": {
+    "@pawjs/pawjs": "^2.2.6"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Atyantik/example-pawjs-redux-saga/issues"
+  },
+  "homepage": "https://github.com/Atyantik/example-pawjs-redux-saga#readme",
+  "dependencies": {
+    "@pawjs/image-optimizer": "^2.2.2",
+    "@pawjs/pawjs": "^3.0.0-alpha.14",
+    "@pawjs/redux": "^2.1.6",
+    "@pawjs/sass": "^2.2.1",
+    "@pawjs/srcset": "^2.1.1",
+    "@types/react": "^16.8.19",
+    "@types/react-dom": "^16.8.4",
+    "bulma": "^0.7.5",
+    "classnames": "^2.2.6",
+    "cloudinary-react": "^1.2.1",
+    "connected-react-router": "^6.5.2",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "fork-ts-checker-webpack-plugin": "^1.3.5",
+    "history": "^4.9.0",
+    "immer": "^4.0.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-cookie": "^4.0.1",
+    "react-flexbox-grid": "^2.1.2",
+    "react-helmet": "^5.2.1",
+    "react-intl": "2.8.0",
+    "react-redux": "^7.0.2",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.4",
+    "redux-saga": "^0.16.2",
+    "reselect": "^4.0.0",
+    "snyk": "^1.173.1",
+    "styled-components": "^4.4.0",
+    "tapable": "^2.0.0-beta.8",
+    "universal-cookie": "^4.0.2",
+    "universal-cookie-express": "^4.0.1",
+    "universal-fetch": "^1.0.0"
+  }
+}
